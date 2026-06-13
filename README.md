@@ -52,7 +52,7 @@ Note that RMSE,R^2, and absolute-error statistics were computed on the log-trans
 |Tuned GradientBoosting| 0.892  | 0.142 | 10.20|
 |XGBoost               | 0.894  | 0.141 | 9.61 |  
 
-![Model Comparison](images/model_comparison.PNG)
+![Model Comparison](model_comparison.PNG)
 
 The results indicate that XGBoost achieved the best overall performance, obtaining the highest R^2 (0.894) and the lowest RMSE(0.141). The average percentage error on the original sale prices(MAPE) is 9.61%, which is among the lowest values after Linear Regression, indicating that this model has high predictive accuracy.   
 Tuned Gradient Boosting also performed competitively, suggesting that boosting_based ensemble methods are particularly effective for this dataset. 
